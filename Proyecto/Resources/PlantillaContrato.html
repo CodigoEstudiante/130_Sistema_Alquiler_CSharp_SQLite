@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<style>
+    .margen {
+        margin-top:3px !important;
+    }
+</style>
+</head>
+<body>
+    <h1>Detalle de Contrato</h1>
+    <table>
+        <tr>
+            <td><b>Codigo  Alquiler:</b></td>
+            <td style="width:110px">@codigoalquiler</td>
+            <td><b>Fecha Registro:</b></td>
+            <td>@fecharegistro</td>
+        </tr>
+        <tr></tr>
+    </table>
+    <hr />
+    <h3 class="margen">Datos del Propietario</h3>
+    <table>
+        <tr>
+            <td style="width:150px">Nombre Completo:</td>
+            <td colspan="3">@propietarionombre</td>
+        </tr>
+        <tr>
+            <td>Tipo Documento:</td>
+            <td style="width:80px">@propietariotipodocumento</td>
+            <td>Nro. Documento:</td>
+            <td style="width:120px">@propietariodocumento</td>
+        </tr>
+        <tr>
+            <td style="width:130px">Correo Electronico:</td>
+            <td colspan="3">@propietariocorreo</td>
+        </tr>
+        <tr>
+            <td style="width:130px">Numero Telefono:</td>
+            <td colspan="3">@propietariotelefono</td>
+        </tr>
+    </table>
+    <hr />
+    <h3 class="margen">Datos del Inquilino</h3>
+    <table>
+        <tr>
+            <td style="width:150px">Nombre Completo:</td>
+            <td colspan="3">@clientenombre</td>
+        </tr>
+
+        <tr>
+            <td>Tipo Documento:</td>
+            <td style="width:80px">@clientetipodocumento</td>
+            <td>Nro. Documento:</td>
+            <td style="width:120px">@clientedocumento</td>
+        </tr>
+
+        <tr>
+            <td style="width:130px">Correo Electronico:</td>
+            <td colspan="3">@clientecorreo</td>
+        </tr>
+        <tr>
+            <td style="width:130px">Numero Telefono:</td>
+            <td colspan="3">@clientetelefono</td>
+        </tr>
+        <tr>
+            <td style="width:130px">Nacionalidad:</td>
+            <td colspan="3">@clientenacionalidad</td>
+        </tr>
+    </table>
+    <hr />
+    <h3 class="margen">Datos del Inmueble</h3>
+    <table>
+        <tr>
+            <td>Codigo Inmueble:</td>
+            <td style="width:80px">@codigoinmueble</td>
+            <td>Tipo Inmueble:</td>
+            <td style="width:200px">@tipoinmueble</td>
+        </tr>
+        <tr>
+            <td style="width:130px">Descripcion:</td>
+            <td colspan="3">@descripcioninmueble</td>
+        </tr>
+    </table>
+    <hr />
+    <h3 class="margen">Resumen Alquiler</h3>
+    <table>
+        <tr>
+            <td>Fecha Inicio Alquiler:</td>
+            <td>@fechainicioalquiler</td>
+        </tr>
+        <tr>
+            <td>Tipo Alquiler:</td>
+            <td>@tipoalquiler</td>
+        </tr>
+        <tr>
+            <td>Cant. de Periodos:</td>
+            <td>@cantidadperiodo</td>
+        </tr>
+        <tr>
+            <td>Tipo Moneda:</td>
+            <td>@tipomoneda</td>
+        </tr>
+        <tr>
+            <td>Precio Alquiler:</td>
+            <td>@precioalquiler</td>
+        </tr>
+    </table>
+    <hr />
+    <h3 class="margen">Clausulas</h3>
+    <p style="width:600px">@clausulas</p>
+    <br /><br /><br />
+
+    <table style="width:100%">
+        <tr style="width:100%">
+            <td align="center" style="width:100%">
+                <table style="width:100%">
+                    <tr>
+                        <td style="border-bottom:1px solid black;width:180px"></td>
+                        <td width="90"></td>
+                        <td style="border-bottom:1px solid black;width:180px"></td>
+                    </tr>
+                    <tr>
+                        <td align="center">Firma del Propietario</td>
+                        <td width="90"></td>
+                        <td align="center">Firma del Inquilino</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+  
+
+</body>
+</html>

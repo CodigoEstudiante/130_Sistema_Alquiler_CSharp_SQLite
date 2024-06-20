@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\WorkSpaceAD\\YOUTUBE\\130 Sistema alquiler en C# y SQLite\\ProyectoAlquiler\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18B407CD-F421-4B96-A81C-2F0E6440221C}|Proyecto\\Proyecto.csproj|e:\\workspacead\\youtube\\130 sistema alquiler en c# y sqlite\\proyectoalquiler\\proyecto\\frmhistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B407CD-F421-4B96-A81C-2F0E6440221C}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\frmhistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B407CD-F421-4B96-A81C-2F0E6440221C}|Proyecto\\Proyecto.csproj|e:\\workspacead\\youtube\\130 sistema alquiler en c# y sqlite\\proyectoalquiler\\proyecto\\frmhistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{18B407CD-F421-4B96-A81C-2F0E6440221C}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\frmhistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmHistorial.cs",
+              "DocumentMoniker": "E:\\WorkSpaceAD\\YOUTUBE\\130 Sistema alquiler en C# y SQLite\\ProyectoAlquiler\\Proyecto\\frmHistorial.cs",
+              "RelativeDocumentMoniker": "Proyecto\\frmHistorial.cs",
+              "ToolTip": "E:\\WorkSpaceAD\\YOUTUBE\\130 Sistema alquiler en C# y SQLite\\ProyectoAlquiler\\Proyecto\\frmHistorial.cs",
+              "RelativeToolTip": "Proyecto\\frmHistorial.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAIwBUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T02:34:55.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmHistorial.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\WorkSpaceAD\\YOUTUBE\\130 Sistema alquiler en C# y SQLite\\ProyectoAlquiler\\Proyecto\\frmHistorial.cs",
+              "RelativeDocumentMoniker": "Proyecto\\frmHistorial.cs",
+              "ToolTip": "E:\\WorkSpaceAD\\YOUTUBE\\130 Sistema alquiler en C# y SQLite\\ProyectoAlquiler\\Proyecto\\frmHistorial.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Proyecto\\frmHistorial.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T02:34:52.544Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

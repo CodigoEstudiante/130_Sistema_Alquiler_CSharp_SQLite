@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Web Page Design</title>
+</head>
+<body>
+  
+ <table style="width:100%">
+     <tr>
+         <td>
+            <table style="width:100%;background-color:ghostwhite;">
+                <tr>
+                    <td style="width:70%" valign="top">
+                        <h2 style="margin-bottom:2px;margin-top:3px">Recibo de Alquiler</h2>
+                    </td>
+                    <td style="width:30%" valign="top">
+                        <table style="font-size:14px;padding:2px">
+                            <tr>
+                                <td>Fecha Pago:</td>
+                                <td>@fechapago</td>
+                            </tr>
+                            <tr>
+                                <td>Codigo Alquiler:</td>
+                                <td>@codigoalquiler</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+         </td>
+     </tr>
+     <tr>
+         <td> 
+             <hr />
+            <h4 style="margin-bottom:2px;margin-top:3px">Datos del Propietario:</h4>
+            <table style="font-size:14px;margin:0px">
+                <tr>
+                    <td style="width:130px">Nombre Completo:</td>
+                    <td colspan="3">@propietarionombre</td>
+                </tr>
+                <tr>
+                    <td>Tipo Documento:</td>
+                    <td style="width:80px">@propietariotipodocumento</td>
+                    <td>Nro. Documento:</td>
+                    <td style="width:120px">@propietariodocumento</td>
+                </tr>
+            </table>
+         </td>
+     </tr>
+     <tr>
+         <td> 
+             <hr />
+            <h4 style="margin-bottom:2px;margin-top:3px">Por el alquiler de:</h4>
+            <table style="font-size:14px;margin:0px">
+               <tr>
+                    <td>Codigo Inmueble:</td>
+                    <td style="width:80px">@codigoinmueble</td>
+                    <td>Tipo Inmueble:</td>
+                    <td style="width:200px">@tipoinmueble</td>
+                </tr>
+                <tr>
+                    <td style="width:130px">Descripcion:</td>
+                    <td colspan="3">@descripcioninmueble</td>
+                </tr>
+            </table>
+         </td>
+     </tr>
+     <tr>
+         <td>
+             <hr />
+            <h4 style="margin-bottom:2px;margin-top:3px">Datos del Inquilino:</h4>
+            <table style="font-size:14px;margin:0px">
+                <tr>
+                    <td style="width:150px">Nombre Completo:</td>
+                    <td colspan="3">@clientenombre</td>
+                </tr>
+        
+                <tr>
+                    <td>Tipo Documento:</td>
+                    <td style="width:80px">@clientetipodocumento</td>
+                    <td>Nro. Documento:</td>
+                    <td style="width:120px">@clientedocumento</td>
+                </tr>
+            </table>    
+         </td>
+     </tr>
+ </table> 
+    <hr />
+ <table style="width:100%;background-color:ghostwhite;font-weight:bold">
+     <tr>
+         <td style="width:30%" valign="top" align="left">
+             <table>
+                 <tr>
+                     <td style="width:150px">Por el periodo de:</td>
+                     <td align="left" valign="top">@nroperiodo</td>
+                 </tr>
+             </table>
+         </td>
+         <td style="width:30%">
+
+         </td>
+         <td style="width:40%" valign="top">
+             <table style="width:100%">
+                 <tr>
+                     <td>Importe Pagado:</td>
+                     <td align="left" valign="top">@importepagado</td>
+                 </tr>
+             </table>
+         </td>
+     </tr>
+ </table>
+</body>
+</html>
